@@ -1,0 +1,21 @@
+<persistence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+  version="2.0" xmlns="http://java.sun.com/xml/ns/persistence">
+  <persistence-unit name="test" transaction-type="RESOURCE_LOCAL">
+  	<class>com.vaka.model.User</class>
+  	<class>com.vaka.model.Event</class>
+  	<class>com.vaka.model.InvitedUser</class>
+  	<class>com.vaka.model.Post</class>
+  	<class>com.vaka.model.Session</class>
+  	<class>com.vaka.model.UsersFriendship</class>
+    <properties>
+      <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
+      <property name="javax.persistence.jdbc.url"    value="jdbc:postgresql://localhost:5432/vaka2" />
+      <property name="javax.persistence.jdbc.user" value="postgres" />
+      <property name="javax.persistence.jdbc.password" value="postgres" />
+      <property name="eclipselink.ddl-generation" value="create-tables" />
+      <property name="eclipselink.ddl-generation.output-mode" value="database" />
+      <!-- <property name="eclipselink.logging.level" value="FINE" />  -->
+    </properties>
+  </persistence-unit>
+</persistence>

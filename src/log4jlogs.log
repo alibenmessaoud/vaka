@@ -1,0 +1,10 @@
+[http-bio-8080-exec-36] INFO  com.dao.IDaoBase 23/11/2013 21:52:48 - class com.dao.IDaoBase <|-- com.model.Session : OK 
+[http-bio-8080-exec-36] INFO  com.dao.IDaoBase 23/11/2013 21:52:48 - class com.dao.IDaoBase <|-- com.model.User : OK 
+[http-bio-8080-exec-36] INFO  com.dao.IDaoBase 23/11/2013 21:52:48 - com.model.User get(int id = 2) 
+[http-bio-8080-exec-36] INFO  com.dao.IDaoBase 23/11/2013 21:52:48 - class com.dao.IDaoBase <|-- com.model.Event : OK 
+[http-bio-8080-exec-36] INFO  com.dao.IDaoBase 23/11/2013 21:52:48 - com.model.Event get(int id = 1) 
+[http-bio-8080-exec-43] INFO  com.dao.IDaoBase 23/11/2013 21:52:49 - class com.dao.IDaoBase <|-- com.model.Session : OK 
+[http-bio-8080-exec-43] INFO  com.dao.IDaoBase 23/11/2013 21:52:49 - class com.dao.IDaoBase <|-- com.model.User : OK 
+[http-bio-8080-exec-43] INFO  com.dao.IDaoBase 23/11/2013 21:52:49 - com.model.User get(int id = 2) 
+[http-bio-8080-exec-43] INFO  com.dao.IDaoBase 23/11/2013 21:52:49 - class com.dao.IDaoBase <|-- com.model.Event : OK 
+[http-bio-8080-exec-43] INFO  com.dao.IDaoBase 23/11/2013 21:52:49 - com.model.Event get(int id = 1) 

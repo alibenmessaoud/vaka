@@ -1,0 +1,2 @@
+delete from sessions where date_part('hours', now() - session_date) >=5
+select date_part('hours', now() - session_date) from sessions  
